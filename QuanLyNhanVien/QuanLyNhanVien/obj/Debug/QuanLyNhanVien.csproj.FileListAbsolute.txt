@@ -1,0 +1,11 @@
+D:\.BMCSDL\BMCSDL-CK-WindowsDefender\QuanLyNhanVien\QuanLyNhanVien\bin\Debug\QuanLyNhanVien.exe.config
+D:\.BMCSDL\BMCSDL-CK-WindowsDefender\QuanLyNhanVien\QuanLyNhanVien\bin\Debug\QuanLyNhanVien.exe
+D:\.BMCSDL\BMCSDL-CK-WindowsDefender\QuanLyNhanVien\QuanLyNhanVien\bin\Debug\QuanLyNhanVien.pdb
+D:\.BMCSDL\BMCSDL-CK-WindowsDefender\QuanLyNhanVien\QuanLyNhanVien\obj\Debug\QuanLyNhanVien.csproj.AssemblyReference.cache
+D:\.BMCSDL\BMCSDL-CK-WindowsDefender\QuanLyNhanVien\QuanLyNhanVien\obj\Debug\BMCSDL_CK_WindowsDefender.frmDangNhap.resources
+D:\.BMCSDL\BMCSDL-CK-WindowsDefender\QuanLyNhanVien\QuanLyNhanVien\obj\Debug\BMCSDL_CK_WindowsDefender.frmQuanLyNhanVien.resources
+D:\.BMCSDL\BMCSDL-CK-WindowsDefender\QuanLyNhanVien\QuanLyNhanVien\obj\Debug\QuanLyNhanVien.Properties.Resources.resources
+D:\.BMCSDL\BMCSDL-CK-WindowsDefender\QuanLyNhanVien\QuanLyNhanVien\obj\Debug\QuanLyNhanVien.csproj.GenerateResource.cache
+D:\.BMCSDL\BMCSDL-CK-WindowsDefender\QuanLyNhanVien\QuanLyNhanVien\obj\Debug\QuanLyNhanVien.csproj.CoreCompileInputs.cache
+D:\.BMCSDL\BMCSDL-CK-WindowsDefender\QuanLyNhanVien\QuanLyNhanVien\obj\Debug\QuanLyNhanVien.exe
+D:\.BMCSDL\BMCSDL-CK-WindowsDefender\QuanLyNhanVien\QuanLyNhanVien\obj\Debug\QuanLyNhanVien.pdb
