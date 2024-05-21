@@ -64,11 +64,10 @@ WITH DecryptedData AS (
     FROM 
         NhanVien nv
 		LEFT JOIN NhanVien_VaiTro nvvt ON nv.MANV = nvvt.MANV
-		LEFT JOIN PhongBan pb ON nv.MaPB = pb.MaPB
     WHERE 
-        (IS_MEMBER('NhanVienPhongBan') = 1 AND nv.MaPB = USER_NAME())
+        (IS_MEMBER('NhanVienPhongBan') = 1 AND nv.MaPB = (SELECT MaPB FROM NhanVien WHERE MANV = ORIGINAL_LOGIN()))
         OR
-        (IS_MEMBER('QuanLyPhongBan') = 1 AND nv.MaPB = USER_NAME())
+        (IS_MEMBER('QuanLyPhongBan') = 1 AND nv.MaPB = (SELECT MaPB FROM NhanVien WHERE MANV = ORIGINAL_LOGIN()))
         OR
         (IS_MEMBER('HR') = 1 AND MaVaiTro != 'HR')
         OR
@@ -78,6 +77,8 @@ WITH DecryptedData AS (
 )
 SELECT * FROM DecryptedData;
 GO
+
+select * from QuanLyNhanVien;
 
 -- Tạo khóa mã hóa cho lương
 CREATE MASTER KEY ENCRYPTION BY PASSWORD = 'WindowsDefender';
@@ -235,7 +236,7 @@ GO
 
 EXEC sp_helpuser
 GO
-
+select ORIGINAL_LOGIN()
 --SELECT
 --    s.session_id,
 --    c.connect_time,
